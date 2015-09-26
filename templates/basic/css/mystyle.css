@@ -1,0 +1,309 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #b7e38c;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#wrap {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    min-height: 100%;
+    padding: 0 20px;
+    margin-bottom: -70px;
+}
+
+
+#wrap:after {
+    content: "";
+    display: block;
+    height: 70px;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    display: table;
+    height: 70px;
+    width: 950px;
+    margin: 0 25px;
+}
+
+header > div {
+    width: 33.333333333%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#right .custom div:first-child {
+    margin-bottom: 10px;
+}
+
+#right .custom div:last-child, #bigmap {
+
+    display: inline-block;
+}
+
+#right .custom div:last-child a, #bigmap a {
+    transition: 1.5s;
+    display: block;
+    padding: 6px 20px;
+    background-color: #76db1b;
+    border: 2px solid #4db528;
+    border-radius: 4px;
+    color: #333333;
+    text-decoration: none;
+}
+
+#right .custom div:last-child a:hover, #bigmap a:hover {
+    transition: 1.5s;
+    color: #fff;
+    border: 2px solid #21892e;
+    background-color: #2a9c1d;
+}
+
+#right .custom div:last-child a:hover {
+
+}
+header div div div img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#mainmenu {
+    position: relative;
+    left: 25px;
+    float: left;
+    width: 950px;
+    background: url("../images/bgd-menu.jpg");
+    background-size: cover;
+}
+
+#mainmenu ul {
+    position: relative;
+    left:49%;
+    margin: 0;
+    float: left;
+    display: block;
+
+}
+
+#mainmenu ul .item-112 {
+    display: none;
+}
+
+#mainmenu ul li {
+    position: relative;
+    left:-50%;
+    display: block;
+    padding: 2px 0;
+    float: left;
+    list-style: none;
+
+}
+
+#mainmenu ul li a {
+    display: block;
+    padding: 8px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#mainmenu ul li a:hover {
+    background: #11772d;
+    border-radius: 5px;
+}
+
+#banner .custom div img {
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+}
+
+.separator {
+    background: url("../images/separator.jpg") no-repeat top center;
+    height: 4px;
+    border: none !important;
+}
+
+#h1serv {
+    font-family: Courier, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+}
+
+#blocks {
+    float: left;
+}
+
+#blocks > div {
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    float: left;
+    background-color: #ebebeb;
+    width: 451px;
+    height: 186px;
+    margin: 15px 0 15px 30px;
+    border: 2px solid transparent;
+}
+
+#blocks > div:hover, #blocks2 > div:hover {
+    border: 2px solid #11772d;
+    background: linear-gradient(to top, #fff, #e3e3e3);
+}
+
+#blocks div .custom > div {
+    display: table;
+
+}
+
+#blocks > div > .custom > div > a {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+    color: #11772d;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#blocks > div > div > div > a >img {
+    float: left;
+    margin-right: 15px;
+}
+
+#blocks2 {
+    float: left;
+}
+
+#blocks2 > div {
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    background-color: #ebebeb;
+    width: 313px;
+    margin: 15px 0 15px 25px;
+    border: 2px solid transparent;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #11772d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#blocks2 > div .custom div a {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
+    color: #11772d;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#blocks2 > div .custom div a img {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+#blocks2 > div .custom div {
+    display: table;
+}
+
+#onlinecall {
+    margin-right: 8px;
+}
+#bottom {
+    background-color: #ebebeb;
+    width: 940px;
+    margin: 20px auto 0 auto;
+    height: 480px;
+    color: #020202;
+}
+
+#bottom > div {
+    float: left;
+    width: 297px;
+    color: #474747;
+    padding: 15px 0 20px 15px;
+
+}
+
+#bottom h3 {
+    color: #11772d;
+    margin-bottom: -10px;
+}
+
+#leftbar > div, #middlebar > div {
+    border-right: 2px solid #898989;
+
+}
+
+#leftbar > div, #middlebar > div {
+    height: 390px;
+}
+
+#middlebar .custom p img {
+    width: 50px;
+}
+
+#middlebar .custom p img:hover {
+     opacity: 0.7;
+}
+
+.fox {
+    padding:  0 15px 0 10px !important;
+}
+
+.foxcontainer h2 {
+    margin-top: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #11772d;
+}
+#content {
+    width: 605px;
+    float: left;
+    padding: 0 25px 30px 20px;
+    text-align: justify;
+}
+
+#content ul {
+
+}
+
+#content ymaps {
+    float: left;
+}
+
+footer {
+    height: 70px;
+    width: 1040px;
+    margin: 0 auto;
+    background-color: #003334;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #f2ffff;
+    display: table;
+    text-align: center;
+}
+
+#lfooter, #rfooter {
+    display: table-cell;
+    vertical-align: middle;
+    width: 500px;
+}
+
